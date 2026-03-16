@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Administrativo - New Time</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <nav>
+            <a href="#formularios">Formulários</a>
+            <a href="#contatos">Contatos &rarr;</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 class="main-title">Painel Administrativo</h1>
+            <p class="subtitle">Acesse formulários, solicitações e movimentações em um só lugar.</p>
+            
+            <div class="cta-buttons">
+                <a href="#formularios" class="btn">Acessar Formulários</a>
+                <a href="#contatos" class="btn">Entrar em contato com o RH</a>
+            </div>
+
+            <img src="Main.png" alt="Equipe New Time" class="main-img">
+        </section>
+
+        <section id="formularios" class="forms-section">
+            <h2 class="forms-callout">Acesse todos os formulários administrativos com apenas um clique.</h2>
+            
+            <div class="forms-list-full">
+                <article class="form-row">
+                    <div class="form-info">
+                        <a href="#" id="link-compras" class="form-title">Formulário de Solicitação de Compras</a>
+                        <p class="form-description">Pedido de compra de materiais ou serviços.</p>
+                    </div>
+                    <span class="form-id">001</span>
+                </article>
+
+                <article class="form-row">
+                    <div class="form-info">
+                        <a href="#" id="link-pessoal" class="form-title">Formulário de Requisição de Pessoal</a>
+                        <p class="form-description">Solicitação para iniciar processo de contratação.</p>
+                    </div>
+                    <span class="form-id">002</span>
+                </article>
+
+                <article class="form-row">
+                    <div class="form-info">
+                        <a href="#" id="link-cargos" class="form-title">Formulário de Alteração de Cargos e Salários</a>
+                        <p class="form-description">Solicitação de mudança de cargo ou remuneração.</p>
+                    </div>
+                    <span class="form-id">003</span>
+                </article>
+            </div>
+        </section>
+
+        <footer id="contatos" class="contact-footer">
+            <h2>Fale conosco!</h2>
+            <div class="cards-wrapper">
+                <div class="contact-card" id="btn-rh">
+                    <div class="card-content">
+                        <strong>Recursos Humanos</strong>
+                        <p>(11) 91200-8866</p>
+                    </div>
+                </div>
+
+                <div class="contact-card" id="btn-dp">
+                    <div class="card-content">
+                        <strong>Departamento Pessoal</strong>
+                        <p>(11) 97089-3298</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
