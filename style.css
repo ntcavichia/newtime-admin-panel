@@ -1,0 +1,156 @@
+:root {
+  --amarelo: #FFCE27;
+  --roxo: #6E33B4;
+  --rosa-escuro: #ED5684;
+  --branco-fundo: #F8F9FA;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SF Pro Display", -apple-system, sans-serif;
+}
+
+body {
+  background-color: var(--branco-fundo);
+  color: #1d1d1f;
+}
+
+.navbar {
+  background-color: var(--roxo);
+  padding: 12px 5%;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 5% 40px;
+}
+
+.main-title {
+  color: var(--roxo);
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #515154;
+  margin-bottom: 32px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 13px;
+  background-color: var(--amarelo);
+  color: black;
+  transition: transform 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.02);
+}
+
+.main-img {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: 20px auto 0;
+}
+
+.forms-callout {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  max-width: 700px;
+  margin: 80px auto 40px;
+}
+
+/* Lista Centralizada */
+.forms-list-full {
+  max-width: 800px;
+  margin: 0 auto 100px;
+  padding: 0 5%;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  border-top: 1px solid #e1e1e1;
+}
+
+.form-title {
+  color: black;
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-description {
+  font-size: 14px;
+  color: #666;
+}
+
+.form-id {
+  font-size: 12px;
+  color: #999;
+  font-weight: 600;
+}
+
+.contact-footer {
+  background-color: var(--rosa-escuro);
+  padding: 80px 5%;
+  text-align: center;
+}
+
+.contact-footer h2 {
+  color: white;
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact-card {
+  background: white;
+  padding: 25px 35px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-align: left;
+  min-width: 300px;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .cards-wrapper { flex-direction: column; align-items: center; }
+  .contact-card { width: 100%; }
+}
