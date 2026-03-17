@@ -2,7 +2,8 @@ const linksPainel = {
     formularios: {
         compras: "https://forms.gle/dfS9AhgTAuEnr7Up8",
         pessoal: "https://forms.gle/WTaXqq7fms7Yi9Vi8",
-        cargos: "https://forms.gle/mbEy5hkGocPqsLHZ8"
+        cargos: "https://forms.gle/mbEy5hkGocPqsLHZ8",
+        emprestimo: "https://forms.gle/hRrgjXxd1qBdsX2J8"
     },
     contatos: {
         rh: "https://wa.link/ugaorr",
@@ -15,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { id: "link-compras", url: linksPainel.formularios.compras },
         { id: "link-pessoal", url: linksPainel.formularios.pessoal },
         { id: "link-cargos", url: linksPainel.formularios.cargos },
+        { id: "link-emprestimo", url: linksPainel.formularios.emprestimo },
         { id: "btn-rh", url: linksPainel.contatos.rh },
         { id: "btn-dp", url: linksPainel.contatos.dp }
     ];
