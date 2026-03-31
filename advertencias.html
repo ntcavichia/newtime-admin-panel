@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advertências - New Time</title>
+    
+    <link rel="icon" href="Logo Bolinhas.png" type="image/png">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .tutorial-container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            margin: 40px auto;
+            max-width: 900px;
+            border-left: 10px solid var(--amarelo);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            text-align: left;
+        }
+
+        .tutorial-container h2 {
+            color: var(--roxo);
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .tutorial-list {
+            list-style: none;
+        }
+
+        .tutorial-list li {
+            margin-bottom: 15px;
+            font-size: 16px;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            line-height: 1.5;
+        }
+
+        .tutorial-list li i {
+            color: var(--rosa-escuro);
+            font-size: 18px;
+            margin-top: 3px;
+        }
+
+        .adv-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 0 5%;
+        }
+
+        .adv-card {
+            background: white;
+            padding: 35px 25px;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid #e1e1e1;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .adv-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--roxo);
+            box-shadow: 0 12px 25px rgba(110, 51, 180, 0.1);
+        }
+
+        .adv-card i {
+            font-size: 45px;
+            color: var(--roxo);
+            margin-bottom: 20px;
+        }
+
+        .adv-card h3 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1d1d1f;
+            margin-bottom: 15px;
+        }
+
+        .btn-download-card {
+            background-color: var(--amarelo);
+            color: black;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="navbar">
+        <img src="Logo Branca.png" alt="Logo New Time" class="nav-logo">
+        <nav>
+            <a href="index.html">Voltar ao Início</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="padding-bottom: 0;">
+            <h1 class="main-title">Central de Advertências</h1>
+            <p class="subtitle">Emita documentos disciplinares de forma rápida e padronizada.</p>
+        </section>
+
+        <section class="tutorial-container">
+            <h2>Como proceder:</h2>
+            <ul class="tutorial-list">
+                <li><i class="fas fa-file-download"></i> <span><strong>Baixe uma cópia do arquivo</strong> selecionando o modelo desejado abaixo.</span></li>
+                <li><i class="fas fa-edit"></i> <span><strong>Preencha todos os dados do colaborador</strong> de maneira completa e seja específico e objetivo no relato da ocorrência.</span></li>
+                <li><i class="fas fa-exclamation-triangle"></i> <span><strong>Não altere o que já está escrito</strong>, preservando os parágrafos que citam a CLT.</span></li>
+                <li><i class="fas fa-print"></i> <span><strong>Sempre imprima duas vias</strong>, uma para a empresa e outra para o colaborador.</span></li>
+                <li><i class="fas fa-comments"></i> <span><strong>Importante:</strong> Se possível, realize o preenchimento e a aplicação <strong>orientado pelo DP</strong>.</span></li>
+            </ul>
+        </section>
+
+        <div class="adv-grid">
+            <a href="https://docs.google.com/document/d/1yO8oIZFzJ_r-t7QFLXJqYShgyk2vHZiNjk1CsYYl1gE/copy?tab=t.0" target="_blank" class="adv-card">
+                <i class="fas fa-user-clock"></i>
+                <h3>Carta de Suspensão</h3>
+                <span class="btn-download-card">Baixar Modelo</span>
+            </a>
+
+            <a href="https://docs.google.com/document/d/1KM8NvU9YRf9vsHNvmPl4RRDUTIgPNC5uQ3BaKpg0D4I/copy?tab=t.0" target="_blank" class="adv-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Falta de Uso de EPI</h3>
+                <span class="btn-download-card">Baixar Modelo</span>
+            </a>
+
+            <a href="https://docs.google.com/document/d/18VpEreQjqeKetEmdcU_0KndMOjxPMzkhiGlqvimKRdE/copy?tab=t.0" target="_blank" class="adv-card">
+                <i class="fas fa-user-times"></i>
+                <h3>Falta Injustificada</h3>
+                <span class="btn-download-card">Baixar Modelo</span>
+            </a>
+
+            <a href="https://docs.google.com/document/d/1vwnfJ0brR4peEGZYteVdQWDjbvqLI3pkzlBl-75XDdM/copy?tab=t.0" target="_blank" class="adv-card">
+                <i class="fas fa-exclamation-circle"></i>
+                <h3>Insubordinação</h3>
+                <span class="btn-download-card">Baixar Modelo</span>
+            </a>
+
+            <a href="https://docs.google.com/document/d/1Y0W90K0mNBocbbi3jUDNIBMKN1DZpyD-CjVSkm-72sU/copy?tab=t.0" target="_blank" class="adv-card">
+                <i class="fas fa-balance-scale-right"></i>
+                <h3>Lesivo da Honra</h3>
+                <span class="btn-download-card">Baixar Modelo</span>
+            </a>
+        </div>
+
+        <footer class="contact-footer">
+            <h2>Dúvidas no preenchimento?</h2>
+            <div class="cards-wrapper">
+                <a href="https://wa.me/5511970893298" target="_blank" class="contact-card">
+                    <strong>Departamento Pessoal</strong>
+                    <span class="phone-line"><i class="fab fa-whatsapp"></i> (11) 97089-3298</span>
+                </a>
+            </div>
+        </footer>
+    </main>
+
+</body>
+</html>
