@@ -1,4 +1,3 @@
-
 const linksPainel = {
     formularios: {
         compras: "https://forms.gle/dfS9AhgTAuEnr7Up8",
