@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painel Administrativo - New Time</title>
-    <link rel="icon" href="Imagens/Logo Bolinhas.png" type="image/png">
+
+    <link rel="icon" href="Logo Bolinhas.png" type="image/png">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header class="navbar">
-        <img src="Imagens/Logo Branca.png" alt="Logo New Time" class="nav-logo">
+        <img src="Logo Branca.png" alt="Logo New Time" class="nav-logo">
+        
         <nav>
             <a href="#formularios">Formulários</a>
+            <a href="#contatos">Contatos &rarr;</a>
             <a href="advertencias.html">Advertências</a>
             <a href="#contatos">Contatos</a>
         </nav>
@@ -23,13 +28,21 @@
         <section class="hero">
             <h1 class="main-title">Painel Administrativo</h1>
             <p class="subtitle">Acesse formulários, solicitações e movimentações em um só lugar.</p>
+
             <div class="cta-buttons">
-                <a href="advertencias.html" class="btn" style="background-color: var(--amarelo); color: black;">Modelos de Advertência</a>
+                <a href="#formularios" class="btn">Acessar Formulários</a>
+                <a href="https://wa.me/5511912008866" target="_blank" class="btn">Entrar em contato com o RH</a>
+            <div class="cta-buttons" style="margin-bottom: 40px;">
+                <a href="#formularios" class="btn">Ver Formulários</a>
+                <a href="advertencias.html" class="btn" style="background-color: var(--roxo); color: white;">Modelos de Advertência</a>
             </div>
+
+            <img src="Main.png" alt="Equipe New Time" class="main-img">
         </section>
 
         <section id="formularios" class="forms-section">
             <h2 class="forms-callout">Acesse todos os formulários administrativos com apenas um clique.</h2>
+
             <div class="forms-grid">
                 <div class="forms-column">
                     <article class="form-row">
@@ -39,6 +52,7 @@
                         </div>
                         <span class="form-id">001</span>
                     </article>
+
                     <article class="form-row">
                         <div class="form-info">
                             <a href="#" id="link-pessoal" class="form-title">Formulário de Requisição de Pessoal</a>
@@ -46,6 +60,7 @@
                         </div>
                         <span class="form-id">002</span>
                     </article>
+
                     <article class="form-row">
                         <div class="form-info">
                             <a href="#" id="link-cargos" class="form-title">Formulário de Alteração de Cargos e Salários</a>
@@ -54,6 +69,7 @@
                         <span class="form-id">003</span>
                     </article>
                 </div>
+
                 <div class="forms-column">
                     <article class="form-row">
                         <div class="form-info">
@@ -62,8 +78,10 @@
                         </div>
                         <span class="form-id">004</span>
                     </article>
+
                     <article class="form-row">
                         <div class="form-info">
+                            <a href="#" id="link-demissao" class="form-title">Formulário de Movimentação de Saída</a>
                             <a href="#" id="link-demissao" class="form-title">Formulário de Demissão</a>
                             <p class="form-description">Solicitação para iniciar processo de demissão.</p>
                         </div>
@@ -73,38 +91,22 @@
             </div>
         </section>
 
-        <section id="contatos" class="dashboard-container">
-            <div class="calendar-box">
-                <img src="Imagens/Calendário 2026/04 - Calendário Abril 2026.png" alt="Calendário Abril 2026" class="calendar-img">
-            </div>
+        <footer id="contatos" class="contact-footer">
+            <h2>Fale conosco!</h2>
+            <div class="cards-wrapper">
+                <a href="https://wa.me/5511912008866" target="_blank" class="contact-card">
+                    <strong>Recursos Humanos</strong>
+                    <span class="phone-line"><i class="fab fa-whatsapp"></i> (11) 91200-8866</span>
+                </a>
 
-            <div class="contacts-floating-box">
-                <h2 class="floating-title">Entre em contato 👇🏻</h2>
-                <div class="contact-links">
-                    <a href="#" id="btn-rh" class="mini-card">
-                        <i class="fab fa-whatsapp"></i>
-                        <div>
-                            <strong>Recursos Humanos (Flávia)</strong>
-                            <span>(11) 91200-8866</span>
-                        </div>
-                    </a>
-                    <a href="#" id="btn-dp" class="mini-card">
-                        <i class="fab fa-whatsapp"></i>
-                        <div>
-                            <strong>Departamento Pessoal (Charlene e Ingryd)</strong>
-                            <span>(11) 97089-3298</span>
-                        </div>
-                    </a>
-                </div>
+                <a href="https://wa.me/5511970893298" target="_blank" class="contact-card">
+                    <strong>Departamento Pessoal</strong>
+                    <span class="phone-line"><i class="fab fa-whatsapp"></i> (11) 97089-3298</span>
+                </a>
             </div>
-        </section>
+        </footer>
     </main>
 
     <script src="script.js"></script>
-
-    <footer class="footer-simples">
-        <p>© 2026 New Time - Versão 1.2.0 (Atualizado em 01/04/2026)</p>
-    </footer>
-
 </body>
 </html>
