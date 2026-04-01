@@ -16,7 +16,7 @@ const linksPainel = {
     },
     contatos: {
         rh: "https://wa.link/ugaorr",
-        dp: "https://wa.link/a6v56t"
+        dp: "https://wa.link/vbvsnf"
     }
 };
 
