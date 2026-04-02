@@ -19,7 +19,6 @@ body {
   overflow-x: hidden;
 }
 
-/* NAVBAR */
 .navbar {
   background-color: var(--roxo);
   padding: 0 5%;
@@ -51,7 +50,6 @@ body {
   font-weight: 500;
 }
 
-/* HERO */
 .hero {
   text-align: center;
   padding: 80px 5% 60px;
@@ -92,7 +90,6 @@ body {
   filter: brightness(1.05);
 }
 
-/* FORMULÁRIOS */
 .forms-section {
   padding: 40px 0;
 }
@@ -156,7 +153,6 @@ body {
   font-weight: 600;
 }
 
-/* DASHBOARD */
 .dashboard-container {
   display: flex;
   width: 100vw;
